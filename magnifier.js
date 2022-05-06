@@ -20,8 +20,8 @@ function setup() {
 function draw() {
   background(255)
   image(img, 0, 0);
-  fill(0,0,100);
   //Vi tegner rektangel omkring forstørrelsesvinduet.
+  fill(0,0,100);
   if(z>1){
     rect(mouseX-0.5*s*z-3,mouseY-0.5*s*z-3,s*z+6,s*z+6);
   }
